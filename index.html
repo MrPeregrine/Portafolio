@@ -1,147 +1,590 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Alan Lerin | Portafolio</title>
+    <meta name="description"
+        content="Portafolio profesional de Alan Lerin. Diseño digital, desarrollo interactivo, programación, realidad virtual y prototipado 3D.">
+
+    <meta name="author" content="Alan Lerin">
+
+    <title>Alan Lerin | Diseñador Digital y Desarrollador Interactivo</title>
+
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+
     <div class="page-container">
-        <nav>
+
+        <!-- NAVEGACIÓN -->
+
+        <nav aria-label="Navegación principal">
+
             <a href="#about">Sobre mí</a>
+            <a href="#specialties">Especialidades</a>
             <a href="#skills">Habilidades</a>
             <a href="#projects">Proyectos</a>
+            <a href="#education">Formación</a>
             <a href="#contact">Contacto</a>
+
         </nav>
-        <header>
-            <h1>Alan Lerin</h1>
-            <p>
-                Diseñador Digital de Medios Interactivos especializado
-                en videojuegos, sistemas interactivos, prototipado físico
-                y desarrollo creativo.
-            </p>
-        </header>
-        <section id="about">
-            <h2>Sobre mí</h2>
-            <div class="about-container">
-                <img src="img/perfil.jpg" alt="Foto de perfil" width="20">
-                <div class="about-text">
-                    <p>
-                        Soy un diseñador digital enfocado en el desarrollo de experiencias
-                        interactivas y proyectos creativos. Tengo experiencia en desarrollo
-                        de videojuegos con Unity y Godot, diseño de interfaces, impresión 3D
-                        y prototipos físicos y digitales.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="skills">
-            <h2>Habilidades</h2>
-            <div class="skills">
-                <div class="skill-card">
-                    <h3>Unity</h3>
-                    <p>Desarrollo de videojuegos y sistemas interactivos.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Programación</h3>
-                    <p>C#, lógica de gameplay y sistemas digitales.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Modelado 3D</h3>
-                    <p>Creación de modelos para videojuegos e impresión 3D.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>UX/UI</h3>
-                    <p>Diseño de interfaces modernas y experiencias digitales.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Impresión 3D</h3>
-                    <p>Producción y pintura de figuras personalizadas.</p>
-                </div>
 
-            </div>
+        <main id="main">
 
-        </section>
+            <!-- PRESENTACIÓN -->
 
-        <!-- PROJECTS -->
+            <header id="home">
 
-        <section id="projects">
-
-            <h2>Proyectos</h2>
-
-            <div class="projects">
-
-                <div class="project-card">
-
-                    <img src="img/unity.png">
-
-                    <div class="project-content">
-
-                        <h3>Ciudades Hermanas</h3>
-
-                        <p>
-                            Desarollo de los sistemas de interacion en un recorrido virtual
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="project-card">
-
-                    <img src="img/custom.jpeg">
-
-                    <div class="project-content">
-
-                        <h3>Controlador Custom</h3>
-
-                        <p>
-                            Prototipo de controlador con botones programables, impresion y diseño de carcasa personalizada.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-
-            </div>
-
-        </section>
-
-        <!-- CONTACT -->
-
-        <section id="contact">
-
-            <h2>Contacto</h2>
-
-            <div class="contact">
-
-                <p>Email: LerinPeregrino@gmail.com</p>
-
-                <p>
-                    Github:
-                    <a href="https://github.com/MrPeregrine" target="_blank">
-                        github.com/MrPeregrine
-                    </a>
+                <p class="subtitle">
+                    DISEÑO DIGITAL / DESARROLLO INTERACTIVO / PROTOTIPADO
                 </p>
 
-            </div>
+                <h1>Alan Lerin</h1>
 
-        </section>
+                <h2>
+                    Diseño y desarrollo de sistemas interactivos
+                </h2>
+
+                <p>
+                    Diseñador Digital de Medios Interactivos enfocado
+                    en la creación de experiencias digitales,
+                    desarrollo de videojuegos, programación y
+                    prototipado físico.
+                </p>
+
+                <p>
+                    Combino diseño y tecnología para desarrollar
+                    soluciones interactivas, desde la conceptualización
+                    hasta la implementación y optimización.
+                </p>
+
+                <div class="header-actions">
+
+                    <a href="#projects" class="header-button">
+                        Ver proyectos
+                    </a>
+
+                    <a href="#contact" class="secondary-button">
+                        Contactarme
+                    </a>
+
+                </div>
+
+            </header>
+
+
+            <!-- SOBRE MÍ -->
+
+            <section id="about">
+
+                <h2>Sobre mí</h2>
+
+                <div class="about-container">
+
+                    <img src="img/perfil.jpg"
+                         alt="Fotografía de Alan Lerin">
+
+                    <div class="about-text">
+
+                        <p>
+                            Soy diseñador digital de Medios Interactivos,
+                            interesado en la creación y desarrollo de
+                            experiencias digitales y sistemas interactivos.
+                        </p>
+
+                        <p>
+                            Mi trabajo combina programación, diseño,
+                            modelado tridimensional y desarrollo de
+                            prototipos. Tengo experiencia trabajando
+                            con motores como Unity y Godot, así como
+                            en la creación de experiencias de realidad
+                            virtual y herramientas interactivas.
+                        </p>
+
+                        <p>
+                            También me interesa la integración entre
+                            software y hardware, utilizando impresión 3D
+                            y componentes electrónicos para desarrollar
+                            soluciones físicas y digitales.
+                        </p>
+
+                        <p>
+                            Busco desarrollar proyectos que integren
+                            funcionalidad, rendimiento y experiencia
+                            de usuario, manteniendo un enfoque práctico
+                            en la resolución de problemas técnicos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ESPECIALIDADES -->
+
+            <section id="specialties">
+
+                <h2>Áreas de especialización</h2>
+
+                <div class="skills">
+
+                    <article class="skill-card">
+
+                        <h3>Desarrollo interactivo</h3>
+
+                        <p>
+                            Diseño e implementación de sistemas
+                            interactivos, mecánicas y experiencias
+                            digitales.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Realidad virtual</h3>
+
+                        <p>
+                            Desarrollo de experiencias XR, interacción
+                            espacial, sistemas de locomoción y
+                            optimización para dispositivos VR.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Optimización técnica</h3>
+
+                        <p>
+                            Análisis de rendimiento, administración
+                            de recursos y optimización de escenas
+                            y sistemas digitales.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Prototipado físico</h3>
+
+                        <p>
+                            Diseño y fabricación de prototipos
+                            mediante impresión 3D, integración
+                            de componentes y electrónica.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- HABILIDADES -->
+
+            <section id="skills">
+
+                <h2>Habilidades técnicas</h2>
+
+                <div class="skills">
+
+                    <article class="skill-card">
+
+                        <h3>Programación</h3>
+
+                        <p>
+                            C#, programación orientada a objetos,
+                            lógica de gameplay y desarrollo
+                            de sistemas.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Motores de desarrollo</h3>
+
+                        <p>
+                            Unity, Godot, sistemas de interacción,
+                            físicas y desarrollo multiplataforma.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Modelado 3D</h3>
+
+                        <p>
+                            Modelado, edición, preparación y
+                            optimización de modelos tridimensionales.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Diseño UX/UI</h3>
+
+                        <p>
+                            Diseño de interfaces, interacción
+                            humano-computadora y experiencia
+                            de usuario.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Fabricación digital</h3>
+
+                        <p>
+                            Impresión 3D, diseño de piezas,
+                            fabricación de carcasas y
+                            prototipos funcionales.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>Desarrollo multimedia</h3>
+
+                        <p>
+                            Integración de recursos visuales,
+                            audio, animación y contenido
+                            multimedia en proyectos digitales.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- HERRAMIENTAS -->
+
+            <section id="tools">
+
+                <h2>Herramientas de trabajo</h2>
+
+                <p>
+                    Tecnologías y herramientas utilizadas durante
+                    el desarrollo de proyectos digitales y físicos.
+                </p>
+
+                <div class="tools-container">
+
+                    <div class="tool-item">
+                        <h3>Unity</h3>
+                        <p>Motor de desarrollo interactivo</p>
+                    </div>
+
+                    <div class="tool-item">
+                        <h3>Godot</h3>
+                        <p>Motor de desarrollo de videojuegos</p>
+                    </div>
+
+                    <div class="tool-item">
+                        <h3>C#</h3>
+                        <p>Programación y desarrollo de sistemas</p>
+                    </div>
+
+                    <div class="tool-item">
+                        <h3>Blender</h3>
+                        <p>Modelado y edición 3D</p>
+                    </div>
+
+                    <div class="tool-item">
+                        <h3>Git / GitHub</h3>
+                        <p>Control de versiones</p>
+                    </div>
+
+                    <div class="tool-item">
+                        <h3>Impresión 3D</h3>
+                        <p>Fabricación y prototipado</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- PROYECTOS -->
+
+            <section id="projects">
+
+                <h2>Proyectos destacados</h2>
+
+                <p>
+                    Una selección de proyectos que representan
+                    mi trabajo en desarrollo interactivo,
+                    programación y prototipado.
+                </p>
+
+                <div class="projects">
+
+                    <!-- PROYECTO 1 -->
+
+                    <article class="project-card">
+
+                        <img src="img/unity.png"
+                             alt="Entorno del proyecto Ciudades Hermanas">
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                REALIDAD VIRTUAL / DESARROLLO INTERACTIVO
+                            </p>
+
+                            <h3>Ciudades Hermanas</h3>
+
+                            <p>
+                                Desarrollo de sistemas interactivos
+                                para una experiencia de recorrido
+                                virtual en realidad virtual utilizando
+                                Unity y Meta Quest 2.
+                            </p>
+
+                            <h4>Participación</h4>
+
+                            <ul>
+                                <li>Desarrollo de sistemas de interacción.</li>
+                                <li>Implementación de sistemas de teletransportación.</li>
+                                <li>Desarrollo de minijuegos interactivos.</li>
+                                <li>Optimización de escenas y recursos 3D.</li>
+                                <li>Análisis y pruebas de rendimiento.</li>
+                            </ul>
+
+                            <p class="project-tags">
+                                Unity · C# · XR · Meta Quest 2 · Optimización
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROYECTO 2 -->
+
+                    <article class="project-card">
+
+                        <img src="img/custom.jpeg"
+                             alt="Prototipo de controlador personalizado">
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                PROTOTIPADO / HARDWARE
+                            </p>
+
+                            <h3>Controlador personalizado</h3>
+
+                            <p>
+                                Diseño y desarrollo de un prototipo
+                                de controlador físico con botones
+                                programables y una carcasa
+                                personalizada.
+                            </p>
+
+                            <h4>Participación</h4>
+
+                            <ul>
+                                <li>Diseño de carcasa tridimensional.</li>
+                                <li>Fabricación mediante impresión 3D.</li>
+                                <li>Integración de componentes físicos.</li>
+                                <li>Diseño de una interfaz de control.</li>
+                            </ul>
+
+                            <p class="project-tags">
+                                Prototipado · Impresión 3D · Hardware · Diseño
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- METODOLOGÍA -->
+
+            <section id="workflow">
+
+                <h2>Proceso de trabajo</h2>
+
+                <p>
+                    Mi enfoque de desarrollo busca combinar
+                    planificación, experimentación y evaluación
+                    técnica durante cada etapa del proyecto.
+                </p>
+
+                <div class="skills">
+
+                    <article class="skill-card">
+
+                        <h3>01. Análisis</h3>
+
+                        <p>
+                            Identificación de necesidades,
+                            objetivos y problemas técnicos
+                            del proyecto.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>02. Diseño y prototipado</h3>
+
+                        <p>
+                            Desarrollo de conceptos, estructuras,
+                            interfaces y pruebas iniciales.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>03. Implementación</h3>
+
+                        <p>
+                            Programación, integración de recursos
+                            y construcción de los sistemas.
+                        </p>
+
+                    </article>
+
+                    <article class="skill-card">
+
+                        <h3>04. Evaluación y optimización</h3>
+
+                        <p>
+                            Pruebas funcionales, análisis de
+                            rendimiento y corrección de problemas.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- FORMACIÓN -->
+
+            <section id="education">
+
+                <h2>Formación académica</h2>
+
+                <div class="education-card">
+
+                    <h3>Licenciatura en Medios Interactivos</h3>
+
+                    <p>
+                        Universidad Autónoma de Ciudad Juárez
+                        (UACJ).
+                    </p>
+
+                    <p>
+                        Formación orientada al diseño digital,
+                        desarrollo de experiencias interactivas,
+                        programación y producción multimedia.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- INTERESES PROFESIONALES -->
+
+            <section id="interests">
+
+                <h2>Intereses profesionales</h2>
+
+                <p>
+                    Me interesa continuar explorando la relación
+                    entre tecnología, diseño y creatividad,
+                    especialmente en las siguientes áreas:
+                </p>
+
+                <ul>
+                    <li>Desarrollo de videojuegos y sistemas interactivos.</li>
+                    <li>Realidad virtual y experiencias inmersivas.</li>
+                    <li>Optimización y arquitectura de sistemas.</li>
+                    <li>Fabricación digital y prototipado físico.</li>
+                    <li>Integración de hardware y software.</li>
+                    <li>Herramientas creativas y tecnologías emergentes.</li>
+                </ul>
+
+            </section>
+
+
+            <!-- CONTACTO -->
+
+            <section id="contact">
+
+                <h2>Contacto</h2>
+
+                <p>
+                    ¿Tienes un proyecto, una propuesta o te gustaría
+                    colaborar? Puedes contactarme mediante los
+                    siguientes medios.
+                </p>
+
+                <div class="contact">
+
+                    <p>
+                        <strong>Email:</strong>
+
+                        <a href="mailto:LerinPeregrino@gmail.com">
+                            LerinPeregrino@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>GitHub:</strong>
+
+                        <a href="https://github.com/MrPeregrine"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            github.com/MrPeregrine
+                        </a>
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
 
         <!-- FOOTER -->
 
         <footer>
 
             <p>
-                © 2026 Alan Lerin - Portafolio Digital
+                © 2026 Alan Lerin · Portafolio Digital
             </p>
 
+            <a href="#home">Volver al inicio ↑</a>
+
         </footer>
+
     </div>
+
 </body>
 </html>
